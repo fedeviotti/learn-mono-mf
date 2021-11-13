@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-const SimpleDiv = () => {
+const SimpleDiv: React.FC = () => {
   return <div>Hi from me!!!</div>;
 };
 
-export default SimpleDiv;
+export { SimpleDiv };

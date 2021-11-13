@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import SimpleDiv from '@fedeviotti/common/src/components/simple-div';
+import { SimpleDiv, SimpleText } from '@fedeviotti/common';
 
 import './index.scss';
 
@@ -11,6 +11,7 @@ const App = () => (
     <div>Language: TypeScript</div>
     <div>CSS: Tailwind</div>
     <SimpleDiv />
+    <SimpleText name="Federico">My name is</SimpleText>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById('app'));
