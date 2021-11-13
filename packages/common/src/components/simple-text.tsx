@@ -1,14 +1,14 @@
 import * as React from 'react';
 
 interface SimpleTextProps {
-  name: string;
+  info: { name: string };
   children: React.ReactNode;
 }
 
-const SimpleText: React.FC<SimpleTextProps> = ({ name, children }) => {
+const SimpleText: React.FC<SimpleTextProps> = ({ info, children }) => {
   return (
     <div>
-      {children} {name}
+      {children} {info.name}
     </div>
   );
 };
