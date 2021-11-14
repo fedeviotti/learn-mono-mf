@@ -11,7 +11,7 @@ const App = () => (
     <div>Language: TypeScript</div>
     <div>CSS: Tailwind</div>
     <SimpleDiv />
-    <SimpleText info={{ name: 'Federico' }}>My name is</SimpleText>
+    <SimpleText info={{ name: true }}>My name is</SimpleText>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById('app'));
