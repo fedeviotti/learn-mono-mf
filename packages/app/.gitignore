@@ -1,0 +1,10 @@
+# Project exclude paths
+/node_modules/
+/packages/app/node_modules/
+/packages/common/node_modules/
+
+# Build
+dist
+
+# JetBrains IDE
+.idea
