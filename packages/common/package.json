@@ -1,6 +1,6 @@
 {
   "name": "@fedeviotti/common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/common.js",
   "license": "MIT",
   "scripts": {
